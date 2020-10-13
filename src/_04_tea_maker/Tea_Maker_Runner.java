@@ -9,5 +9,8 @@ public static void main(String[] args) {
 	Kettle kettle = new Kettle();
 	kettle.getWater();
 	kettle.boil();
+	
+	Cup cup = new Cup();
+	cup.makeTea(Bag, kettle.getWater());
 }
 }
